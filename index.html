@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurabh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SAURABH.DEV</div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="particles-js">
+        <section class="hero">
+            <div class="hero-left">
+                <p class="tagline">Transforming data into actionable insights</p>
+                <h1>Hi, I am <span>Saurabh Borse</span> <br>I build modern web solutions powered by data-driven insights.</h1>
+                <div class="buttons">
+                    <a href="#" class="btn primary">Hire me</a>
+                    <a href="Saurabh_Borse_Resume.pdf" class="btn outline" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="bg-skew"></div>
+                <img src="./main sec img.png" alt="Ramesh" />
+            </div>
+        </section>
+    </div>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="./intro sec img.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-content">
+                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm Saurabh Borse, a passionate frontend developer and data enthusiast from Maharashtra. 
+                        I enjoy building responsive, user-friendly web applications and uncovering insights through data analysis. 
+                        Skilled in HTML, CSS, JavaScript, and Python, I've developed real-world projects including a Streamlit-based Olympics data analyzer and Walmart Data Analysis.
+                        I have hands-on experience with SQL, Power BI, and MySQL, and I'm committed to writing clean code and delivering mobile-first designs. 
+                        Eager to grow within a tech-driven team, I continuously seek opportunities to learn and contribute to impactful, data-informed solutions.
+                    </p>
+
+                    <p><em>"Insight is design for the mind. Data is the code behind it."</em></p>
+
+
+                    <div class="about-details">
+                        <p><strong>Name:</strong> Saurabh Babasaheb Borse</p>
+                        <p><strong>Date of birth:</strong> August 28, 2002</p>
+                        <p><strong>Address:</strong> Nashik, Pune, India</p>
+                        <p><strong>Zip code:</strong> 423106</p>
+                        <p><strong>Email:</strong> sbborse05@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-8275836899</p>
+                    </div>
+                    <div class="interests">
+                        <span><i class="fas fa-music"></i> Music</span>
+                        <span><i class="fas fa-plane"></i> Travel</span>
+                        <span><i class="fas fa-film"></i> Movie</span>
+                        <span><i class="fas fa-futbol"></i> Sports</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills-section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="pythonlogo.png" class="skill-icon" alt="Python" />
+                <h4>Python</h4>
+                <div class="level-label">95%</div>
+            </div>
+            <div class="skill-card">
+                <img src="mysql.png" class="skill-icon" alt="MySQL" />
+                <h4>MySQL</h4>
+                <div class="level-label">92%</div>
+            </div>
+            <div class="skill-card">
+                <img src="powerbi.png" class="skill-icon" alt="PowerBI" />
+                <h4>PowerBI</h4>
+                <div class="level-label">80%</div>
+            </div>
+            <div class="skill-card">
+                <img src="html (2).png" class="skill-icon" alt="HTML" />
+                <h4>HTML</h4>
+                <div class="level-label">90%</div>
+            </div>
+            <div class="skill-card">
+                <img src="css.png" class="skill-icon" alt="CSS" />
+                <h4>CSS</h4>
+                <div class="level-label">78%</div>
+            </div>
+            <div class="skill-card">
+                <img src="aiml.png" class="skill-icon" alt="AIML" />
+                <h4>AIML</h4>
+                <div class="level-label">60%</div>
+            </div>
+            <div class="skill-card">
+                <img src="jupyter.png" class="skill-icon" alt="Jupyter" />
+                <h4>Jupyter</h4>
+                <div class="level-label">45%</div>
+            </div>
+            <!-- <div class="skill-card">
+                <img src="images/seo.png" class="skill-icon" alt="SEO" />
+                <h4>SEO</h4>
+                <div class="level-label">70%</div>
+            </div> -->
+        </div>
+
+        <!-- Project card -->
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="autosales.png" alt="Project 2" />
+                    <div class="project-info">
+                        <h3>Auto Sales Dashboard</h3>
+                        <p>PowerBI, SQL</p>
+                        <a href="https://github.com/sbborse-05/Power-Bi-Auto-Sales-Dashboard" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="streamlitwebapp.png" alt="Project 1" />
+                    <div class="project-info">
+                        <h3>Streamlit Web Application</h3>
+                        <p>Python, SQL, GitHub</p>
+                        <a href="https://github.com/sbborse-05/Olympic-Data-Analysis" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="amazondashboard.png" alt="Project 3" />
+                    <div class="project-info">
+                        <h3>Amazon Sales Dashboard</h3>
+                        <p>PowerBI, SQL</p>
+                        <a href="https://github.com/sbborse-05/Power-Bi-Amazon-Sales-Dashboard" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="BankPredictoin.png" alt="Project 4" />
+                    <div class="project-info">
+                        <h3>Bank Marketing Prediction Using ML</h3>
+                        <p>Python, Jupyter, SQL</p>
+                        <a href="https://github.com/sbborse-05/Bank-Marketing-Prediction" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Add more cards if needed -->
+            </div>
+        </section>
+
+
+
+        <!-- contact -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-container">
+                <h3>SAURABH.DEV</h3>
+                <p>Transforming data into decisions with code & creativity ✨</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sbborse-05" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saurabhborse05/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/saurabh_borse05/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="copyright">© 2025 Saurabh Borse. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+    </script>
+</body>
+
+</html>
