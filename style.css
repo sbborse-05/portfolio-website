@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #72ff7b;
+  background: #e8ca6a;
   color: #111;
   overflow-x: hidden;
   padding-top: 80px;
@@ -31,7 +31,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #269f2e;
+  background: #f4cf55;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #7e826d;
+  color: #f4cf55;
 }
 
 .menu-icon {
@@ -84,7 +84,7 @@ body {
 
 .hero-left .tagline {
   font-size: 14px;
-  color: #72ff7b;
+  color: #000000;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .hero-left h1 span {
-  color: #269f2e;
+  color: #816300;
 }
 
 .buttons {
@@ -115,13 +115,13 @@ body {
 }
 
 .btn.primary {
-  background: #269f2e;
+  background: #816300;
   color: #fff;
 }
 
 .btn.outline {
-  border: 2px solid #269f2e;
-  color: #269f2e;
+  border: 2px solid #816300;
+  color: #816300;
 }
 
 .hero-right {
@@ -138,7 +138,7 @@ body {
   height: 550px;        /* keep width & height equal */
   object-fit: cover;    /* to fit face properly */
   border-radius: 50%;   /* makes it round */
-  border: 4px solid #000000; /* optional white border */
+  border: 2px solid #000000; /* optional white border */
   box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* light shadow */
 }
 
@@ -148,7 +148,7 @@ body {
   right: -50px;
   width: 120%;
   height: 105%;
-  background: #269f2e;
+  background: #816300;
   transform: skewX(-15deg);
   z-index: -1;
 }
@@ -156,7 +156,7 @@ body {
 /* About Section */
 .about-section {
   padding: 60px 20px;
-  background: #72ff7b;
+  background: #e8ca6a;
 }
 
 .container {
@@ -215,7 +215,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-  background: #72ff7b;
+  background: #e8ca6a;
   padding: 60px 20px;
   text-align: center;
   scroll-margin-top: 80px;
@@ -271,7 +271,7 @@ body {
 /* Projects Section */
 .projects-section {
   padding: 80px 20px;
-  background-color: #72ff7b;
+  background-color: #e8ca6a;
   text-align: center;
 }
 
@@ -351,7 +351,7 @@ body {
 /* Contact Section */
 .contact-section {
   padding: 80px 20px;
-  background: #72ff7b;
+  background: #f4cf55;
   text-align: center;
 }
 
