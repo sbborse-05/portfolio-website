@@ -181,45 +181,43 @@
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
                 <form 
-  class="contact-form"
-  action="https://formspree.io/f/xkovnddg"
-  method="POST"
->
+                class="contact-form" id="contact-form"
+               >
 
-  <div class="form-group">
-    <input 
-      type="text" 
-      name="name"
-      placeholder="Your Name" 
-      required 
-    />
-  </div>
-
-  <div class="form-group">
-    <input 
-      type="email" 
-      name="email"
-      placeholder="Your Email" 
-      required 
-    />
-  </div>
-
-  <div class="form-group">
-    <textarea 
-      name="message"
-      rows="5" 
-      placeholder="Your Message" 
-      required
-    ></textarea>
-  </div>
-
-  <button type="submit" class="btn primary">
-    Send Message
-  </button>
-
-</form>
-
+            <div class="form-group">
+            <input 
+                type="text" 
+                name="name"
+                placeholder="Your Name" 
+                required 
+            />
             </div>
+
+            <div class="form-group">
+            <input 
+                type="email" 
+                name="email"
+                placeholder="Your Email" 
+                 required 
+            />
+            </div>
+
+            <div class="form-group">
+            <textarea 
+                name="message"
+                rows="5" 
+                placeholder="Your Message" 
+                required
+            ></textarea>
+            </div>
+
+            <button type="submit" class="btn primary">
+            Send Message
+            </button>
+
+        </form>
+
+        </div>
         </section>
 
 
@@ -240,9 +238,34 @@
 
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+<script>
+  (function(){
+    emailjs.init("Wpp1a0-8dZu_7OodV");
+  })();
+</script>
 
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
 
+  emailjs.sendForm(
+    "service_dg0vl9f",
+    "template_0xuy6kg",
+    this
+  ).then(
+    function() {
+      alert("Message sent successfully!");
+      document.getElementById("contact-form").reset();
+    },
+    function(error) {
+      alert("Failed to send message. Try again.");
+      console.log(error);
+    }
+  );
+});
+</script>
 
 
 
