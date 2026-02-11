@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #e8ca6a;
+  background: #cfdbe8;
   color: #111;
   overflow-x: hidden;
   padding-top: 80px;
@@ -31,7 +31,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #f4cf55;
+  background: #5b88ea;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #f4cf55;
+  color: #4176e8;
 }
 
 .menu-icon {
@@ -97,7 +97,7 @@ body {
 }
 
 .hero-left h1 span {
-  color: #816300;
+  color: #4176e8;
 }
 
 .buttons {
@@ -115,13 +115,13 @@ body {
 }
 
 .btn.primary {
-  background: #816300;
+  background: #4176e8;
   color: #fff;
 }
 
 .btn.outline {
-  border: 2px solid #816300;
-  color: #816300;
+  border: 2px solid #4176e8;
+  color: #4176e8;
 }
 
 .hero-right {
@@ -148,7 +148,7 @@ body {
   right: -50px;
   width: 120%;
   height: 105%;
-  background: #816300;
+  background: #5b88ea;
   transform: skewX(-15deg);
   z-index: -1;
 }
@@ -156,7 +156,7 @@ body {
 /* About Section */
 .about-section {
   padding: 60px 20px;
-  background: #e8ca6a;
+  background: #cfdbe8;
 }
 
 .container {
@@ -215,7 +215,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-  background: #e8ca6a;
+  background: #cfdbe8;
   padding: 60px 20px;
   text-align: center;
   scroll-margin-top: 80px;
@@ -271,7 +271,7 @@ body {
 /* Projects Section */
 .projects-section {
   padding: 80px 20px;
-  background-color: #e8ca6a;
+  background-color: #cfdbe8;
   text-align: center;
 }
 
@@ -351,7 +351,7 @@ body {
 /* Contact Section */
 .contact-section {
   padding: 80px 20px;
-  background: #f4cf55;
+  background: #b3d0ee;
   text-align: center;
 }
 
